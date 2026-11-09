@@ -1,0 +1,34 @@
+title: Whale OS Design Skills
+description: Whale OS 设计 Skills 仓库 · 让设计规范、工作流程与交付经验持续复用
+lang: zh-CN
+timezone: Asia/Shanghai
+
+url: https://yangreyna.github.io
+baseurl: /Whale-OS-10-Design-Skill
+repository: YangReyna/Whale-OS-10-Design-Skill
+
+theme: jekyll-theme-cayman
+show_downloads: false
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# README remains available to include_relative without creating a second homepage.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

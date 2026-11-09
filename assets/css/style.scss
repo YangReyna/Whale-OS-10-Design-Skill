@@ -1,0 +1,38 @@
+---
+---
+
+$header-bg-color: #036fa0;
+$header-bg-color-secondary: #073b6f;
+$section-headings-color: #075b83;
+$body-link-color: #076b9b;
+
+@import "{{ site.theme }}";
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+.main-content {
+  line-height: 1.8;
+  overflow-wrap: break-word;
+}
+
+.main-content h2 {
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #e4edf3;
+}
+
+.main-content table th {
+  background: #f0f7fb;
+}
+
+.main-content pre {
+  line-height: 1.65;
+}
+
+.main-content a:focus-visible,
+.page-header a:focus-visible {
+  outline: 3px solid #e4a014;
+  outline-offset: 4px;
+}
