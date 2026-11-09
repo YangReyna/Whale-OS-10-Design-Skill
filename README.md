@@ -13,7 +13,13 @@
 
 ## Skills 目录
 
-当前处于仓库初始化阶段，尚未收录正式 Skill。后续新增的 Skill 会在此列出名称、适用场景和入口。
+当前已收录以下 Skill：
+
+| Skill | 适用场景 | 学习快照 |
+| --- | --- | --- |
+| [whale-os10-design](https://github.com/YangReyna/Whale-OS-10-Design-Skill/tree/main/skills/whale-os10-design) | Whale OS 10 的 TV、Projector、STB 大屏 UI、遥控器交互原型与用户流程设计及评审 | 2026-11-09 |
+
+`whale-os10-design` 包含技能入口、AI 助手展示配置，以及视觉系统、交互模式、设计流程和 Figma 来源映射四份参考资料。使用时请保留完整目录；学习快照用于定位依据，实际设计仍需核对当前项目文件。
 
 计划逐步覆盖以下方向，具体以实际收录内容为准：
 
@@ -39,7 +45,11 @@
 .
 ├── README.md             # 仓库介绍，同时作为网站首页内容
 ├── skills/
-│   └── README.md         # Skill 编写与维护约定
+│   ├── README.md         # Skill 编写与维护约定
+│   └── whale-os10-design/
+│       ├── SKILL.md      # Whale OS 10 大屏设计
+│       ├── agents/openai.yaml
+│       └── references/   # 视觉、交互、设计流程及来源映射
 ├── _config.yml           # Jekyll 与 GitHub Pages 配置
 ├── index.md              # 网站入口，直接引用 README
 ├── assets/css/style.scss # Cayman 主题的海蓝色样式

@@ -6,7 +6,7 @@ permalink: /skills/
 
 # Skill 编写与维护约定
 
-本目录存放 Whale OS 相关设计 Skills。当前尚未收录正式 Skill；本页用于约定后续的组织方式与编写要求。
+本目录存放 Whale OS 相关设计 Skills，已收录 [whale-os10-design](https://github.com/YangReyna/Whale-OS-10-Design-Skill/tree/main/skills/whale-os10-design)。本页用于约定后续的组织方式与编写要求。
 
 ## 组织方式
 

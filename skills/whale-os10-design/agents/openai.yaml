@@ -1,0 +1,4 @@
+interface:
+  display_name: "Whale OS 10 交互与 UI 设计"
+  short_description: "学习并复用 Whale OS 10 的大屏视觉规范、组件与遥控器交互"
+  default_prompt: "使用 $whale-os10-design，依据当前 Figma 标准为 Whale OS 10 设计大屏界面与遥控器交互原型。"
