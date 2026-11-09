@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Skill 编写与维护约定
+permalink: /skills/
 ---
 
 # Skill 编写与维护约定
